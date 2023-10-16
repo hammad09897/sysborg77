@@ -1,0 +1,633 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.one ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+main header {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 100px; */
+    border-bottom: 2px solid #ea7323;
+    border-top: 3px solid #ea7323;
+    background: linear-gradient(90deg, rgba(236, 239, 242, 1) 0%, rgba(236, 239, 242, 1) 20%, rgba(0, 52, 113, 1) 45%);
+}
+
+.one ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+
+}
+
+.icon {
+    color: white;
+}
+
+.image1 .container1 {
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    left: 5%;
+    width: 40%;
+}
+
+.home .image1 .container1 h1 {
+    color: white;
+}
+
+.home .image1 .container1 p {
+    color: white;
+}
+
+.container1 h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container1 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.home {
+    overflow: hidden;
+}
+
+.image2 {
+    /* padding: 50px; */
+    display: flex;
+
+}
+
+.image2 h1 {
+    font-size: 25px;
+}
+
+.image2 p {
+    width: 100%;
+    font-size: 15px;
+}
+
+.center h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    padding: 40px;
+}
+
+.mobile h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: medium;
+
+}
+
+.software h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: medium;
+
+}
+
+.digital h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: medium;
+
+}
+
+.mobile p {
+    font-size: larger;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+.software p {
+    font-size: larger;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 15px;
+
+
+}
+
+.digital p {
+    font-size: larger;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+.color {
+    background-color: #F0F7FD;
+    padding: 50px;
+}
+
+.mobile {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px -4px 8px 5px;
+}
+
+.software {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px -4px 8px 5px;
+}
+
+.digital {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px -4px 8px 5px;
+}
+
+.page {
+    display: flex;
+}
+
+.graphic h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: medium;
+
+}
+
+.Services h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: medium;
+
+}
+
+.digitizing h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: medium;
+
+}
+
+.graphic p {
+    font-size: larger;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 15px;
+
+
+
+}
+
+.Services p {
+    font-size: larger;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 15px;
+    gap: 10px;
+
+}
+
+.digitizing p {
+    font-size: larger;
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.page2 {
+    display: flex;
+}
+
+.graphic {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px -4px 8px 5px;
+}
+
+.Services {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px -4px 8px 5px;
+}
+
+
+.digitizing {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px -4px 8px 5px;
+}
+
+.two h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    padding: 5px;
+}
+
+.two p {
+    font-size: larger;
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 100%;
+    line-height: 1.5;
+
+}
+
+.color .fa-solid {
+    color: #003471;
+    font-size: 25px;
+    background-color: #F0F7FD;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.one {
+    display: flex;
+    /* padding: 30px; */
+}
+
+
+
+.six h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    padding: 5px;
+
+
+}
+
+.six p {
+    font-size: larger;
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.four {
+    display: flex;
+}
+
+.six,
+.two {
+    display: flex;
+
+    padding: 30px;
+    margin: 40px;
+    background-color: #F0F7FD;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.five {
+    padding: 40px;
+
+}
+
+.icon1 {
+    color: #fff;
+}
+
+.icon,
+.icon2 {
+    padding: 10px;
+    /* font-size: 30px; */
+    background: #003471;
+    color: white;
+    height: 16px;
+    border-radius: 100px;
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+
+
+.testing h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.text p {
+
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+
+    padding: 10px;
+
+    line-height: 1.5;
+
+
+
+}
+
+.images11,
+.images22 {
+    display: flex;
+}
+
+.Company h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+    padding: 20px;
+
+}
+
+.development p {
+
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+
+
+    line-height: 1.5;
+
+}
+
+.Business h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+    padding: 20px;
+
+}
+
+.Talking p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+
+}
+
+.team {
+    background: linear-gradient(90deg, rgba(236, 239, 242, 1) 0%, rgba(0, 52, 113, 1) 30%, rgba(0, 52, 113, 1) 60%);
+    display: flex;
+    /* height: 350px; */
+    border: 3px solid #ea7323;
+    padding-left: 20px;
+
+
+}
+
+.team .sysborg p {
+    width: 180px;
+    color: white;
+
+}
+
+.team .pakistan ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.team .pakistan ul {
+    list-style: none;
+}
+
+
+
+.team .pakistan .main_pakistan {
+    width: 31%;
+}
+
+.team .pakistan .parts {
+    width: 32%;
+}
+
+.team .pakistan {
+
+    font-family: sans-serif;
+    line-height: 2;
+    font-size: 12px;
+    font-weight: 500;
+    /* margin-top: 35px; */
+    display: flex;
+
+}
+
+.team .sysborg p {
+    text-align: start;
+    line-height: 2;
+}
+
+/* .team .sysborg{
+    margin-left: 60px;
+    margin-top:40px ;
+} */
+/* .team .sysborg .sir{
+    height: 40%;
+    width: 100%;
+} */
+
+
+.team .parts ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.team .parts ul {
+    list-style: none;
+}
+
+.team .parts h2 {
+    color: white;
+    /* margin-top: 45px; */
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* .team .parts{
+    position: absolute;
+    right: 38%;
+    line-height: 2;
+} */
+
+.team .lasting h1 {
+    color: white;
+    /* margin-top: 50px; */
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.team .lasting .fa-brands {
+    color: white;
+}
+
+.team .main_team {
+    display: flex;
+
+}
+
+/* media */
+@media (max-width: 1312px) {
+    .image1 .container1 {
+        top: 100%;
+    }
+}
+
+@media (max-width: 926px) {
+    main header {
+        flex-direction: column;
+        gap: 0;
+        padding-bottom: 10px;
+    }
+
+    .one ul {
+        flex-direction: column;
+        gap: 7px;
+
+    }
+
+    .image1 .container1 {
+        top: 195%;
+    }
+    .container1 h1{
+        font-size: 26px;
+    }
+    .container1 p{
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 747px) {
+    .container1 h1 {
+        font-size: 28px;
+    }
+
+    .container1 p {
+        font-size: 12px;
+    }
+
+    .image2 {
+        flex-direction: column;
+        padding-left: 17px;
+        padding-right: 17px
+        
+    }
+
+    .page ,.page2 {
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .mobile ,.software , .digital ,.graphic ,.Services ,.digitizing{
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0;
+    }
+    
+}
+@media (max-width: 747px) {
+    .container1 h1 {
+        font-size: 18px;
+    }
+    .container1 p{
+        font-size: 8px;
+    }
+    .image1 .container1{
+        top: 165%;
+    }
+    .one ,.four{
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .two ,.six{
+        margin: 0;
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 91%;
+        margin: auto;
+    }
+    .images11{
+        flex-direction: column;
+    }
+}
+@media (max-width: 633px) {
+    .team .main_team{
+        flex-direction: column;
+    }
+    .team .pakistan{
+        flex-direction: column;
+    }
+    .team .pakistan .main_pakistan{
+        width: 100% !important;
+    }
+    .team .pakistan .parts{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .container1 h1 {
+        font-size: 10px;
+    }
+    .container1 p{
+        font-size: 4px;
+    }
+    .image1 .container1{
+        top: 155%;
+    }
+}
